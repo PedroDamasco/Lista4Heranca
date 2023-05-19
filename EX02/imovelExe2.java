@@ -1,5 +1,4 @@
-package EX02;
-
+package Exercicio02;
 public class imovel {
 
     private int codigo;
