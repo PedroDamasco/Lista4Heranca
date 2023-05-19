@@ -1,5 +1,4 @@
-package EX02;
-
+package Exercicio02;
 public class ImovelVelho extends imovel {
 
     private double valorDesconto;
