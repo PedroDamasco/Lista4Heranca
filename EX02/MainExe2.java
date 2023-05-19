@@ -1,4 +1,4 @@
-package EX02;
+package Exercicio02;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,9 +15,9 @@ public class Main {
 
         while (opcao != 3) {
             System.out.println("\nMenu:");
-            System.out.println("1- Inserir Imovel");
-            System.out.println("2- Exibir Imoveis");
-            System.out.println("3- Sair");
+            System.out.println(" -> Inserir Imovel ->1");
+            System.out.println(" -> Exibir Imoveis ->2");
+            System.out.println(" -> Sair ->3");
             System.out.print("Digite Aqui: ");
 
             opcao = teclado.nextInt();
@@ -25,8 +25,8 @@ public class Main {
             switch (opcao) {
                 case 1 -> {
                     System.out.println("O imovel é novo ou velho?");
-                    System.out.println("1 - Novo");
-                    System.out.println("2 - velho");
+                    System.out.println("-> Novo -> 1");
+                    System.out.println("-> velho ->2");
                     System.out.print("Digite Aqui: ");
                     int resp ;
                     resp = teclado.nextInt();
@@ -59,7 +59,7 @@ public class Main {
                             imoveis.add(velho);
                         }
                         default ->
-                            System.out.println("Não temos esta Opção! Escolha Novo ou Velho. ");
+                            System.out.println("Opção invalida, tente Novo ou Velho. ");
                     }
                 }
 
@@ -79,10 +79,10 @@ public class Main {
                 }
 
                 case 3 ->
-                    System.out.println("Saindo...");
+                    System.out.println("Adeus");
 
                 default ->
-                    System.out.println("Opção inválida");
+                    System.out.println("Opção inválida,tente novamente");
             }
         }
 
